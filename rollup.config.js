@@ -2,12 +2,13 @@
  * @Author: zhiguo.jzg
  * @Date: 2022-05-17 04:38:57
  * @Description: TODO: Description of file, its uses and information
- * @LastEditTime: 2022-05-27 03:59:31
+ * @LastEditTime: 2022-05-27 04:59:01
  * @LastEditors: zhiguo.jzg
  */
 import ts from 'rollup-plugin-ts';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
+import {terser} from 'rollup-plugin-terser';
 
 export default [{
   input: 'src/index.ts',
@@ -24,6 +25,9 @@ export default [{
       name: 'jsh',
       sourcemap: true,
       exports: 'default',
+      plugins: [
+        terser(),
+      ],
     },
   ],
   plugins: [

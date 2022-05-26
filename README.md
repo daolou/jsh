@@ -42,10 +42,14 @@ jsh("sdbm", sign); // 4725310089
 <!-- ... other HTML ... -->
 
 <!-- load jsh。-->
-<script src="://unpkg.com/jsh@latest/lib/index.umd.js" crossorigin></script>
+<script
+  src="://unpkg.com/@jsany/jsh@latest/lib/index.umd.js"
+  crossorigin
+></script>
 
 <!-- use jsh。-->
 <script>
+  const sign = "hello word!";
   window.jsh("ap", sign); // -870885323
   window.jsh("bkdr", sign); // 1.559481765091785e+23
   window.jsh("dek", sign); // 2090529829
