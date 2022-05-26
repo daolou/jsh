@@ -1,7 +1,22 @@
 {
-  "name": "jsh",
+  "name": "@jsany/jsh",
   "version": "1.0.0",
   "description": "javascript string hash library",
+  "keywords": [
+    "javascript",
+    "hash",
+    "string",
+    "APHash",
+    "BKDRHash",
+    "DEKHash",
+    "DJBHash",
+    "ELFHash",
+    "JSHash",
+    "PJWHash",
+    "SDBMHash"
+  ],
+  "license": "ISC",
+  "author": "daolou <jiangzhiguo2010@qq.com>",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "browser": "lib/index.umd.js",
@@ -39,21 +54,6 @@
     },
     "space": true
   },
-  "keywords": [
-    "javascript",
-    "hash",
-    "string",
-    "APHash",
-    "BKDRHash",
-    "DEKHash",
-    "DJBHash",
-    "ELFHash",
-    "JSHash",
-    "PJWHash",
-    "SDBMHash"
-  ],
-  "author": "daolou <jiangzhiguo2010@qq.com>",
-  "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^17.0.0",
