@@ -9,7 +9,7 @@ it can use in esm、cjs、umd.
 ### ESM
 
 ```js
-import jsh from "jsh";
+import jsh from "@jsany/jsh";
 const sign = "hello word!";
 jsh("ap", sign); // -870885323
 jsh("bkdr", sign); // 1.559481765091785e+23
@@ -24,7 +24,7 @@ jsh("sdbm", sign); // 4725310089
 ### CJS
 
 ```js
-const jsh = require("jsh");
+const jsh = require("@jsany/jsh");
 const sign = "hello word!";
 jsh("ap", sign); // -870885323
 jsh("bkdr", sign); // 1.559481765091785e+23

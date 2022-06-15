@@ -1,9 +1,10 @@
 {
   "name": "@jsany/jsh",
   "version": "1.0.3",
-  "description": "javascript string hash library",
+  "description": "javascript string non-cryptographic hash library",
   "keywords": [
     "javascript",
+    "non-cryptographic-hash-functions",
     "hash",
     "string",
     "APHash",
